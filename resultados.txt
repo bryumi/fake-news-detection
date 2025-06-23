@@ -1,0 +1,38 @@
+
+Tempo de treinamento (Random Forest): 9.56 segundos
+Tempo de inferência (Random Forest): 0.08 segundos
+Random Forest Results:
+              precision    recall  f1-score   support
+
+           0       0.92      0.92      0.92       639
+           1       0.91      0.92      0.91       628
+
+    accuracy                           0.92      1267
+   macro avg       0.92      0.92      0.92      1267
+weighted avg       0.92      0.92      0.92      1267
+
+
+Tempo de treinamento (LSTM): 42.27 segundos
+Tempo de inferência (LSTM): 2.87 segundos
+LSTM Results:
+              precision    recall  f1-score   support
+
+           0       0.86      0.94      0.89       639
+           1       0.93      0.84      0.88       628
+
+    accuracy                           0.89      1267
+   macro avg       0.89      0.89      0.89      1267
+weighted avg       0.89      0.89      0.89      1267
+
+
+Tempo de treinamento (BERT): 9746.15 segundos
+Tempo de inferência (BERT): 270.39 segundos
+BERT Results:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       639
+           1       0.98      0.96      0.97       628
+
+    accuracy                           0.97      1267
+   macro avg       0.97      0.97      0.97      1267
+weighted avg       0.97      0.97      0.97      1267
